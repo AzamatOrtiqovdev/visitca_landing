@@ -1,0 +1,42 @@
+.mainTitle {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5rem 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.mainDescription {
+  font-size: 2rem;
+  margin-top: 1rem;
+  width: 76%;
+  text-align: center;
+  margin: 0 auto 6rem auto;
+  font-weight: 400;
+
+}
+
+.mainButton {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: 'ABeeZee', sans-serif;
+  margin: 3rem auto 7rem auto;
+  border: 1px solid #6CC800
+}
+
+.colabrators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-bottom: 4rem;
+}
+
+.colabrators img {
+  object-fit: contain;
+}

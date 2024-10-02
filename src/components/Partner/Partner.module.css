@@ -1,0 +1,43 @@
+.partner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.partnerTitle {
+  font-size: 80.83px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 95.54px;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.partnerTitle::after {
+  content: url("../../assets/lineMed.png");
+  position: absolute;
+  top: 30px;
+  left: 250px;
+}
+
+.partnerInfo,
+.partnerImg {
+  width: 48%;
+}
+
+.partnerInfo h3 {
+  font-size: 51.63px;
+  font-weight: 400;
+  line-height: 61.03px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.partnerInfo p {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.1px;
+  text-align: left;
+}

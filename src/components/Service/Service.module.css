@@ -1,0 +1,65 @@
+.serviceList {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      row-gap: 70px;
+      padding-bottom: 150px;
+}
+
+.serviceTitle {
+      text-align: center;
+      font-size: 80.83px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 95.54px;
+      text-align: center;
+      width: 70%;
+      margin: 80px auto;
+      position: relative;
+}
+
+.serviceTitle::after {
+      content: url("../../assets/lineMed.png");
+      position: absolute;
+      top: 50px;
+      left: 90px;
+}
+
+.serviceItem {
+      width: 47%;
+      height: 220px;
+      padding: 1.5rem 2rem;
+      background: #141414;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      transition: all 0.5s ease;
+}
+
+.serviceItem:hover {
+      border: 1px solid #B9FF66;
+      transform: scale(1.1);
+}
+
+.serviceInfo {
+      width: 85%;
+}
+
+.serviceInfo h3 {
+      font-size: 31.42px;
+      font-weight: 400;
+      line-height: 37.13px;
+      margin-bottom: 20px;
+}
+
+.serviceInfo p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.83px;
+}
+
+.serviceItem img {
+      width: 10%;
+      object-fit: contain;
+}
